@@ -16,7 +16,7 @@ const Contact = () => {
               <p className='text-gray-300 my-5'>I'd love to hear from you! Whether you have a question, feedback, or just want to connect, feel free to reach out. You can contact me through the options below or fill out the form to send a message directly.</p>
               <h3 className='text-2xl font-semibold text-gray-300'>Email</h3>
               <p className='text-gray-600 mt-2'>
-                <a href="mailto:youremail@example.com" className='text-blue-500 hover:underline'>vikuvikash03@gmail.com</a>
+                <a href="mailto:vikuvikash@gmail.com" className='text-blue-500 hover:underline'>vikuvikash03@gmail.com</a>
               </p>
             </div>
             <div>
