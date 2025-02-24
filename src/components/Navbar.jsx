@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between max-w-7xl mx-auto px-4 md:px-0">
         {/* logo section */}
         <div>
-          <a href="/">
+          <a href="#about">
             <img
               src={Logo}
               alt=""
@@ -25,7 +25,7 @@ const Navbar = () => {
         {/* Menu section  */}
         <nav className="hidden md:block">
           <ul className="flex gap-7 text-xl items-center font-semibold text-white">
-            <a href="/">
+            <a href="#about">
               <li className="cursor-pointer hover:text-[#1E90FF] transition-colors duration-300">
                 About
               </li>

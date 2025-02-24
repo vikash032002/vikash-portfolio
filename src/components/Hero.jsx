@@ -23,7 +23,7 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <section className="h-max md:h-screen bg-gradient-to-l bg-gray-950 text-white flex flex-col justify-center items-center relative z-10 pb-10">
+    <section id="about" className="h-max md:h-screen bg-gradient-to-l bg-gray-950 text-white flex flex-col justify-center items-center relative z-10 pb-10">
       {/* stars */}
       <div>
         <span></span>

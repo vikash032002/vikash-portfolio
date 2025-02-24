@@ -24,7 +24,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
       {/* Navigation Menu */}
       <nav className="mt-8">
         <ul className="flex flex-col items-center gap-6 text-lg font-semibold">
-          <a href="/" className="hover:text-blue-400 transition">
+          <a href="#about" className="hover:text-blue-400 transition">
             <li onClick={() => setShowMenu(false)}>About</li>
           </a>
           <a href="#skills" className="hover:text-blue-400 transition">
