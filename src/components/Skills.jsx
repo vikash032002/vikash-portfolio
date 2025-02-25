@@ -26,7 +26,7 @@ const Skills = () => {
             <div className="mt-5">
               <h1 className="font-bold text-2xl mb-5 text-blue-400">Technical Skills</h1>
               <div className="flex flex-wrap gap-4 mb-5 text-sm">
-                {["Java","Python","C++","Html","CSS","Bootstrap","javascript","React,js", "Tailwind CSS", "Redux-Toolkit", "Node.js", "Express.js", "PHP", "MySql", "MongoBD", "Git/Github","VS Code"].map((skill) => (
+                {["Java","Python","C++","Html","CSS","Bootstrap","javascript","React.js", "Tailwind CSS", "Redux-Toolkit", "Node.js", "Express.js", "PHP", "MySql", "MongoDB", "Git/Github","VS Code"].map((skill) => (
                   <p key={skill} className="bg-gray-900 cursor-pointer text-gray-300 px-3 py-1 rounded-full border border-blue-500 shadow-md shadow-blue-500 hover:bg-blue-500 hover:text-white transition">
                     {skill}
                   </p>
